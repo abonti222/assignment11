@@ -1,0 +1,306 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	line-height: 1.7em;
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Montserrat', sans-serif;
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: none;
+}
+/*global css for title/heading*/
+.title{
+	width: 100%;
+	padding: 0px 0px 20px;
+}
+.title h1{
+	font-size: 52px;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+.title img{
+	margin: 0px 0px 5px;
+}
+/**********************/
+.header{
+	width: 100%;
+	padding: 10px 0px;
+	background: #fff;
+}
+.header .navbar-nav .nav-item .nav-link{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	font-weight: 600;
+	text-transform: uppercase;
+	color: #28377e;
+	letter-spacing: 1px;
+	margin: 0px 0px 0px 25px;
+	transition: 1s;
+}
+.header .navbar-nav .nav-item .nav-link:hover{
+	color: #f2622c;
+}
+.header .navbar-nav .nav-item .nav-link:focus{
+	color: #f2622c;
+}
+.slider{
+	width: 100%;
+	padding: 80px 0px;
+	background: url(../images/bg.png) center top no-repeat;
+	background-size: cover;
+}
+.inner-slider{
+	width: 100%;
+	padding: 90px 0px 0px;
+}
+.inner-slider h1{
+	font-size: 60px;
+	line-height: 1.3em;
+	font-weight: 600;
+	text-transform: uppercase;
+	text-align: center;
+	color: #fff;
+}
+.arrow{
+	width: 100%;
+	padding: 155px 0px 0px 640px;
+}
+.arrow .fa{
+	font-size: 36px;
+	color: #fff; 
+	transition: 1s;
+}
+.arrow .fa:hover{
+	color: red;
+}
+.about1{
+	width: 100%;
+	padding: 80px 0px;
+}
+.about1 .title{
+	padding: 40px 0px 0px;
+}
+.about1 .title h1{
+	color: #1f4f87;
+}
+.about1 p{
+	font-size: 16px;
+	line-height: 1.7em;
+	color: #bab9ba;
+}
+.ab-1-img{
+	width: 100%;
+	text-align: center;
+}
+.what{
+	width: 100%;
+	padding: 80px 0px;
+	background: url(../images/wbg.png) center top no-repeat;
+	background-size: cover;
+}
+.what .title{
+	text-align: center;
+	padding: 0px 0px 60px;
+}
+.what .title h1{
+	color:#1f4f87 ;
+}
+.what .card{
+	border-radius: 0px;
+	text-align: center;
+}
+.what .card .card-title{
+	position: absolute;
+	top: 50%;
+	left: 0;
+	width: 100%;
+	font-size: 26px;
+	font-weight: 600;
+	text-transform: uppercase;
+	color: #fff;
+}
+.what .card .long-arraw{
+	position: absolute;
+	width: 100%;
+	left: 0;
+	bottom: 15%;
+}
+.about2{
+	width: 100%;
+	padding: 80px 0px;
+	background: url(../images/abg.png) center top no-repeat;
+	background-size: cover;
+}
+.about2 .title{
+	padding: 90px 0px 0px;
+}
+.about2 .title h1{
+	color: #fff;
+}
+.about2 p{
+	font-size: 14px;
+	line-height: 1.7em;
+	color: #929dcf;
+}
+.about2 .custom{
+	font-size: 14px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: 600;
+	letter-spacing: 1px;
+	color:#f2622c ;
+}
+.about2 .custom:hover{
+	color: #fff;
+}
+.about2 .card{
+	border-radius: 0px;
+	text-align: left;
+	margin: 0px 0px 15px;
+}
+.about2 .card .card-title{
+	position: absolute;
+	bottom: 10%;
+	left: 10%;
+	width: 80%;
+	font-size: 26px;
+	font-weight: 600;
+	text-transform: uppercase;
+	color: #fff;
+}
+.about3{
+	width: 100%;
+	padding: 80px 0px;
+}
+.about3 .title{
+	text-align: center;
+}
+.about3 .title h1{
+	color:#28377e ;
+	padding-bottom: 25px;
+}
+
+.about3 .head{
+    width: 100%;
+    padding: 30px 0px;
+    border: 1px solid #fff;
+}
+.about3 .head h3{
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 1.2em;
+    text-transform: uppercase;
+    margin: 0px;
+    color: #28377e;
+    padding: 0px 0px 20px;
+     border: 1px solid #fff;
+}
+.about3 .head p{
+	font-size: 16px;
+	line-height: 1.7em;
+	color: #bab9ba;
+}
+.about3 .head .custom-link{
+	font-size: 14px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: 600;
+	letter-spacing: 1px;
+	color:#f2622c ;
+}
+.about3 .head .custom-link:hover{
+	color: #28377e;
+}
+.contact {
+  width: 100%;
+  padding: 80px 0;
+  background-color: #28377e;
+}
+
+.contact .title {
+  text-align: center;
+  padding: 0 0 80px;
+}
+
+.contact .title h1 {
+  color: #fff;
+}
+
+.contact .form-control {
+  border: none;
+  border-bottom: 1px solid #4759a7;
+  color: #fff;
+  border-radius: 0px;
+  outline: 0px;
+  background: transparent;
+}
+
+.contact .form-control:hover {
+  background: transparent;
+}
+.contact .form-control:focus {
+  background: transparent;
+}
+
+.contact label {
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+}
+
+.contact .btn-warning {
+  width: 100%;
+  border: 2px solid #f2622c;
+  border-radius: 5px;
+  background: #f2622c;
+  color: #fff;
+  text-transform: uppercase;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  margin: 40px 0 10px 0;
+}
+.contact .btn-warning:hover {
+  background-color: transparent;
+  border: 1px solid #fff;
+  color: #f2622c;
+}
+.footer {
+  width: 100%;
+  background-color: #0c1234;
+  padding: 30px 0;
+}
+
+.footer .inner-footer p {
+  color: #616ca8;
+  display: inline;
+  font-size: 14px;
+}
+
+.footer .inner-footer ul {
+  float: right;
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+
+.footer .inner-footer li {
+  display: inline-block;
+  margin: 0 15px 0 0;
+}
+
+.footer .inner-footer ul li a {
+  color: #b1b7dd;
+}
+
+.footer .inner-footer ul li a:hover {
+  color: #f2622c;
+}
